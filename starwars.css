@@ -1,0 +1,16 @@
+#personagens {
+    font-size: 190%;
+    width: 35%;
+}
+
+#filmes {
+    color: gold;
+}
+
+html {
+    background-size: 100%
+}
+
+body{
+    background: #000 url(https://miukimiu.github.io/star-wars-random-quotes/images/bg.jpg);
+}
