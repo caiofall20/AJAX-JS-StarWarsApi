@@ -29,7 +29,7 @@ body{
     justify-content: center;
 }
 
-select {
+/* select {
     -webkit-appearance: none;
     -moz-border-radius: 0;
     -webkit-border-radius: 0;
@@ -39,7 +39,7 @@ select {
     border: 0;
     box-shadow: 0 0 0 2px gold;
     padding: 12px 50px 12px 12px;
-}
+} */
 
 #creditos{
     color: gold;
@@ -51,5 +51,6 @@ select {
 
 footer{
     display: flex;
+    flex-flow: column;
     justify-content: center;
 }
