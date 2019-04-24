@@ -1,6 +1,6 @@
 #personagens {
     font-size: 190%;
-    width: 35%;
+    width: 16%;
 }
 
 #filmes {
@@ -11,6 +11,45 @@ html {
     background-size: 100%
 }
 
+h1{
+    color: gold;
+}
+
 body{
     background: #000 url(https://miukimiu.github.io/star-wars-random-quotes/images/bg.jpg);
+}
+
+#titulo{
+    margin-top: 10%;
+    width: 30%;
+    height: 30%;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    color: gold;
+    font-size: 20px;
+    background-color: transparent;
+    border: 0;
+    box-shadow: 0 0 0 2px gold;
+    padding: 12px 50px 12px 12px;
+}
+
+#creditos{
+    color: gold;
+}
+
+#nave{
+    width: 8%;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
 }
