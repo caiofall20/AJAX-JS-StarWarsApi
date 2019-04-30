@@ -1,6 +1,13 @@
 #personagens {
     font-size: 190%;
     width: 16%;
+    background-color: transparent;
+    color: gold;
+    border: none;
+}
+
+option{
+    
 }
 
 #filmes {
