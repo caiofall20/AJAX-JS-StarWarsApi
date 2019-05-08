@@ -7,7 +7,8 @@
     <title>Star Wars API</title>
     <link rel="stylesheet" href="starwars.css">
     <!DOCTYPE html>
-    <script src="starwars.js"></script>
+    <script src="starwarsPeoples.js"></script>
+    <script src="starwarsStarships.js"></script>
 </head>
 
 <body>
@@ -17,6 +18,19 @@
     <p id="mensagem">Saiba em que filmes o personagem aparece </p>
 
     <select id="personagens" onchange="mostrarFilmes">
+        <option>Luke Skywalker</option>
+        <option>C-3PO</option>
+        <option>R2-D</option>
+    </select>
+
+    <ul id="filmes">
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+
+
+    <select id="naves" onchange="mostrarFilmes">
         <option>Luke Skywalker</option>
         <option>C-3PO</option>
         <option>R2-D</option>
